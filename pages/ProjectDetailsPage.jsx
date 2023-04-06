@@ -20,7 +20,10 @@ export default function ProjectDetailsPage() {
       ></Image>
       <View style={{ flexDirection: "column" }}>
         <Text variant="labelLarge">#1332 project number</Text>
-        <Text variant="titleLarge" style={{ fontWeight: "bold" }}>
+        <Text
+          variant="titleLarge"
+          style={{ fontWeight: "bold", marginBottom: 20 }}
+        >
           Project Name
         </Text>
       </View>
