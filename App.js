@@ -1,20 +1,20 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Provider as PaperProvider } from "react-native-paper";
+import { useTheme } from "react-native-paper";
+import ProjectsList from "./pages/ProjectsList";
+import InitialPage from "./pages/InitialPage";
+import CreateAccount from "./pages/CreateAccount";
+import { View } from "react-native";
 
 export default function App() {
+  const theme = useTheme();
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <PaperProvider theme={theme}>
+      <View style={{ marginTop: 20 }}>
+        {/*<ProjectsList />*/}
+        {/*<InitialPage />*/}
+        <CreateAccount />
+      </View>
+    </PaperProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
