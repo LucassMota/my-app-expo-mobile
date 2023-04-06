@@ -4,10 +4,7 @@ import { ScrollView, View } from "react-native";
 export default function ProjectsList() {
   return (
     <View>
-      <Text
-        variant="displayMedium"
-        style={{ marginVertical: 20, textAlign: "center" }}
-      >
+      <Text variant="displayMedium" style={{ textAlign: "center" }}>
         Projects
       </Text>
       <ScrollView>

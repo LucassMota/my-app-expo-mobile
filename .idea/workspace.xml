@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13bba6ae-e1cf-4946-a945-3b8f9d792a1d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/CreateAccount.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CreateAccount.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/InitialPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/InitialPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/ProjectsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ProjectsList.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +59,22 @@
       <workItem from="1680702120048" duration="4910000" />
       <workItem from="1680711111117" duration="12763000" />
       <workItem from="1680726865590" duration="2422000" />
-      <workItem from="1680729361843" duration="10553000" />
+      <workItem from="1680729361843" duration="16274000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

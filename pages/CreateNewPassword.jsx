@@ -1,32 +1,26 @@
-import { View } from "react-native";
 import { Button, Text, TextInput } from "react-native-paper";
+import { View } from "react-native";
 
-export default function CreateAccount() {
+export default function CreateNewPassword() {
   return (
     <View>
       <Text
         variant="headlineLarge"
         style={{ fontWeight: "bold", textAlign: "center", marginBottom: 50 }}
       >
-        Create an account
+        Create a new password
       </Text>
       <TextInput
         style={{ height: 70 }}
         mode="outlined"
         activeOutlineColor="#000000FF"
-        label="Your full name"
+        label="New password"
       ></TextInput>
       <TextInput
         style={{ height: 70 }}
         mode="outlined"
         activeOutlineColor="#000000FF"
-        label="Your email"
-      ></TextInput>
-      <TextInput
-        style={{ height: 70 }}
-        mode="outlined"
-        activeOutlineColor="#000000FF"
-        label="Create a strong password"
+        label="Repeat new password"
       ></TextInput>
       <Button
         buttonColor={"#2C353D"}
@@ -42,7 +36,7 @@ export default function CreateAccount() {
           color: "#ffffff",
         }}
       >
-        Create an account
+        Sign in
       </Button>
       <Text variant="labelLarge" style={{ textAlign: "center", marginTop: 20 }}>
         Already have an account?
@@ -54,28 +48,6 @@ export default function CreateAccount() {
         >
           {"     "}
           Sign in
-        </Text>
-      </Text>
-      <Text
-        variant="labelLarge"
-        style={{
-          textAlign: "center",
-          textDecorationLine: "underline",
-          color: "#094cb0",
-        }}
-      >
-        Forgot Password?
-      </Text>
-      <Text
-        variant="labelLarge"
-        style={{ textAlign: "center", marginTop: 20, color: "#c4c3c3" }}
-      >
-        By signing up you agree to our{"  "}
-        <Text
-          variant="labelLarge"
-          style={{ textDecorationLine: "underline", color: "#c4c3c3" }}
-        >
-          Privacy Policy and Terms
         </Text>
       </Text>
     </View>

@@ -1,6 +1,7 @@
-import { Button, Text } from "react-native-paper";
+import { Button, IconButton, Text } from "react-native-paper";
 import { View, Image } from "react-native";
-export default function InitialPage() {
+
+export default function SuccessPage() {
   return (
     <>
       <View>
@@ -19,7 +20,13 @@ export default function InitialPage() {
           variant="headlineLarge"
           style={{ fontWeight: "bold", textAlign: "center" }}
         >
-          Start by creating an account.
+          Success!
+        </Text>
+        <Text
+          variant="titleLarge"
+          style={{ textAlign: "center", marginTop: 20 }}
+        >
+          Now check your email for a confirmation link.
         </Text>
         <Button
           buttonColor={"#2C353D"}
@@ -35,33 +42,18 @@ export default function InitialPage() {
             color: "#ffffff",
           }}
         >
-          Sign up with email
+          Back to sign in
         </Button>
         <Text
           variant="labelLarge"
-          style={{ textAlign: "center", marginTop: 20 }}
+          style={{ textAlign: "center", marginTop: 60 }}
         >
-          Already have an account?
+          Didn't receive it?{"  "}
           <Text
             variant="labelLarge"
-            style={{
-              color: "#094cb0",
-            }}
+            style={{ textDecorationLine: "underline" }}
           >
-            {"     "}
-            Sign in
-          </Text>
-        </Text>
-        <Text
-          variant="labelLarge"
-          style={{ textAlign: "center", marginTop: 20, color: "#c4c3c3" }}
-        >
-          By signing up you agree to our{"  "}
-          <Text
-            variant="labelLarge"
-            style={{ textDecorationLine: "underline", color: "#c4c3c3" }}
-          >
-            Privacy Policy and Terms
+            Resend Email
           </Text>
         </Text>
       </View>
